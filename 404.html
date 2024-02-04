@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.2" />
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html,
+      body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+        document.documentElement.classList.toggle('dark', true)
+      }
+    </script>
+    <link rel="manifest" href="/manifest.webmanifest"><meta name="application-name" content="Example"><meta name="apple-mobile-web-app-title" content="Example"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="msapplication-TileColor" content="#3eaf7c"><meta name="theme-color" content="#3eaf7c"><title>ESPnet-Example</title><meta name="description" content="Example notebooks for ESPnet">
+    <link rel="preload" href="/notebook/assets/style-cp41dQ25.css" as="style"><link rel="stylesheet" href="/notebook/assets/style-cp41dQ25.css">
+    <link rel="modulepreload" href="/notebook/assets/app-FOR18dDf.js"><link rel="modulepreload" href="/notebook/assets/404.html-8hkKDKOa.js"><link rel="modulepreload" href="/notebook/assets/404.html-6Yl8cQE3.js">
+    <link rel="prefetch" href="/notebook/assets/index.html-XAvCBsD6.js" as="script"><link rel="prefetch" href="/notebook/assets/DataPreparation_CMU_11492_692_Spring2023(Assignment0).html-KBtpWdkS.js" as="script"><link rel="prefetch" href="/notebook/assets/SpeechEnhancement_CMU_11492_692_Spring2023(Assignment7).html-ojQTonzi.js" as="script"><link rel="prefetch" href="/notebook/assets/SpokenLanguageUnderstanding_CMU_11492_692_Spring2023(Assignment6).html-k7t3PiyY.js" as="script"><link rel="prefetch" href="/notebook/assets/TextToSpeech_CMU_11492_692_Spring2023(Assignment8).html-mugYinQi.js" as="script"><link rel="prefetch" href="/notebook/assets/espnet2_new_task_tutorial_CMU_11751_18781_Fall2022.html-xjN-GwTF.js" as="script"><link rel="prefetch" href="/notebook/assets/espnet2_recipe_tutorial_CMU_11751_18781_Fall2022.html-IaNcm8K-.js" as="script"><link rel="prefetch" href="/notebook/assets/espnet2_tutorial_2021_CMU_11751_18781.html-IMfnLI01.js" as="script"><link rel="prefetch" href="/notebook/assets/asr_cli.html-JH3saHIF.js" as="script"><link rel="prefetch" href="/notebook/assets/asr_library.html-nD4wSonE.js" as="script"><link rel="prefetch" href="/notebook/assets/espnet2_asr_realtime_demo.html-31qj-nF8.js" as="script"><link rel="prefetch" href="/notebook/assets/espnet2_asr_transfer_learning_demo.html-K8AGvfnJ.js" as="script"><link rel="prefetch" href="/notebook/assets/espnet2_streaming_asr_demo.html-NgcmLWnC.js" as="script"><link rel="prefetch" href="/notebook/assets/onnx_conversion_demo.html-wfKipc9w.js" as="script"><link rel="prefetch" href="/notebook/assets/pretrained.html--Y7vPVCq.js" as="script"><link rel="prefetch" href="/notebook/assets/espnet_se_demonstration_for_waspaa_2021.html-_RqduImg.js" as="script"><link rel="prefetch" href="/notebook/assets/se_demo.html-zhHwqNB_.js" as="script"><link rel="prefetch" href="/notebook/assets/espnet2_2pass_slu_demo.html-SOe7ZUtq.js" as="script"><link rel="prefetch" href="/notebook/assets/st_demo.html-_JBPLyfl.js" as="script"><link rel="prefetch" href="/notebook/assets/espnet2_tts_realtime_demo.html-9h1FXENI.js" as="script"><link rel="prefetch" href="/notebook/assets/tts_cli.html-OLkBd5Fu.js" as="script"><link rel="prefetch" href="/notebook/assets/tts_realtime_demo.html-Bgn0MtVH.js" as="script"><link rel="prefetch" href="/notebook/assets/finetune_owsm.html-oRbSv_3K.js" as="script"><link rel="prefetch" href="/notebook/assets/finetune_with_lora.html-53DWrWT9.js" as="script"><link rel="prefetch" href="/notebook/assets/train.html-ZtrUU739.js" as="script"><link rel="prefetch" href="/notebook/assets/tacotron2.html-lMDTfHXx.js" as="script"><link rel="prefetch" href="/notebook/assets/index.html-Fa1mvKNA.js" as="script"><link rel="prefetch" href="/notebook/assets/DataPreparation_CMU_11492_692_Spring2023(Assignment0).html-yZnfE8Rl.js" as="script"><link rel="prefetch" href="/notebook/assets/SpeechEnhancement_CMU_11492_692_Spring2023(Assignment7).html-EtOqTzx1.js" as="script"><link rel="prefetch" href="/notebook/assets/SpokenLanguageUnderstanding_CMU_11492_692_Spring2023(Assignment6).html-3QqySz0B.js" as="script"><link rel="prefetch" href="/notebook/assets/TextToSpeech_CMU_11492_692_Spring2023(Assignment8).html-oKNm4LpP.js" as="script"><link rel="prefetch" href="/notebook/assets/espnet2_new_task_tutorial_CMU_11751_18781_Fall2022.html-4zeeKKut.js" as="script"><link rel="prefetch" href="/notebook/assets/espnet2_recipe_tutorial_CMU_11751_18781_Fall2022.html-Xne2M8JW.js" as="script"><link rel="prefetch" href="/notebook/assets/espnet2_tutorial_2021_CMU_11751_18781.html-HhdidVDJ.js" as="script"><link rel="prefetch" href="/notebook/assets/asr_cli.html-knKjgurg.js" as="script"><link rel="prefetch" href="/notebook/assets/asr_library.html-Kz7KwH4E.js" as="script"><link rel="prefetch" href="/notebook/assets/espnet2_asr_realtime_demo.html-RYvF9e8R.js" as="script"><link rel="prefetch" href="/notebook/assets/espnet2_asr_transfer_learning_demo.html-IksoduPb.js" as="script"><link rel="prefetch" href="/notebook/assets/espnet2_streaming_asr_demo.html-6EF7rYtq.js" as="script"><link rel="prefetch" href="/notebook/assets/onnx_conversion_demo.html-1dXBgI7d.js" as="script"><link rel="prefetch" href="/notebook/assets/pretrained.html-bRY7ZLad.js" as="script"><link rel="prefetch" href="/notebook/assets/espnet_se_demonstration_for_waspaa_2021.html-53aPYjLT.js" as="script"><link rel="prefetch" href="/notebook/assets/se_demo.html-0y7hJZOb.js" as="script"><link rel="prefetch" href="/notebook/assets/espnet2_2pass_slu_demo.html-LPf_aa6M.js" as="script"><link rel="prefetch" href="/notebook/assets/st_demo.html-GjLoLXxU.js" as="script"><link rel="prefetch" href="/notebook/assets/espnet2_tts_realtime_demo.html-NCcWLTBY.js" as="script"><link rel="prefetch" href="/notebook/assets/tts_cli.html-Elg6sapX.js" as="script"><link rel="prefetch" href="/notebook/assets/tts_realtime_demo.html-wTutqUQW.js" as="script"><link rel="prefetch" href="/notebook/assets/finetune_owsm.html-BKHMtCfm.js" as="script"><link rel="prefetch" href="/notebook/assets/finetune_with_lora.html-h3VNWfNm.js" as="script"><link rel="prefetch" href="/notebook/assets/train.html-zSf_6N6D.js" as="script"><link rel="prefetch" href="/notebook/assets/tacotron2.html-gzrp5q7X.js" as="script"><link rel="prefetch" href="/notebook/assets/NpmBadge-ZlH3swud.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>That&#39;s a Four-Oh-Four.</blockquote><a href="/notebook/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/notebook/assets/app-FOR18dDf.js" defer></script>
+  </body>
+</html>
